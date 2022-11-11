@@ -1,0 +1,19 @@
+.card-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  background: rgb(10, 31, 69);
+  padding-top: 2rem;
+}
+
+button {
+  border: none;
+  background: none;
+  margin: 1rem;
+  border-radius: 12px;
+  cursor: pointer;
+}
+
+button:hover {
+  transform: scale(1.1);
+}
